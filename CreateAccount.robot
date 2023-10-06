@@ -7,6 +7,7 @@ Suite Teardown                  End suite
 *** Test Cases ***
 Create Account Growmore
     [Tags]                      Account                     New Account
+    # I made this edit in CRT
     Appstate                    Home
     LaunchApp                   Sales
     ClickText                   Accounts
